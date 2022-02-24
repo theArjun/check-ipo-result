@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        ".venv\\Scripts\\python",
+    ],
+    "python.linting.flake8Path": ".venv\\Scripts\\flake8",
+    "python.formatting.yapfPath": ".venv\\Scripts\\yapf",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.flake8Args": [
+        "--config=.flake8",
+        "--ignore=E133",
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": false,
+    "python.linting.flake8CategorySeverity.F": "Error",
+    "python.linting.flake8CategorySeverity.E": "Error",
+    "python.formatting.provider": "yapf",
+    "editor.rulers": [80, 120],
+    "python.envFile": "${workspaceRoot}/.venv",
+    "python.analysis.extraPaths": [
+        ".venv\\Scripts\\python",
+    ],
+    "python.linting.enabled": true,
+}
